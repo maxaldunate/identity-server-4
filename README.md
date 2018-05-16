@@ -15,13 +15,12 @@
 
 ### 1. Overview of Securing Modern Apps and APIs
 
-* [IdentityServer.io WebSite](http://identityserver.io/)
-* [IdentityServer 4 Documentation](https://identityserver4.readthedocs.io/en/release/)
-* [OpenID Connect](http://openid.net/connect/)
-* [OAuth 2](https://oauth.net/2/)
-* [JWT - JSON Web Tokens](https://jwt.io/)
-
-* Competitors
+1. [IdentityServer.io WebSite](http://identityserver.io/)
+1. [IdentityServer 4 Documentation](https://identityserver4.readthedocs.io/en/release/)
+1. [OpenID Connect](http://openid.net/connect/)
+1. [OAuth 2](https://oauth.net/2/)
+1. [JWT - JSON Web Tokens](https://jwt.io/)
+1. Competitors
   - [PingFederate Server](https://documentation.pingidentity.com/pingfederate/pf90/index.shtml#gettingStartedGuide/concept/gettingStarted.html)
   - [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-whatis)
     * [Pricing](https://azure.microsoft.com/en-us/pricing/details/active-directory/)
