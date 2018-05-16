@@ -20,12 +20,13 @@
 1. [OpenID Connect](http://openid.net/connect/)
 1. [OAuth 2](https://oauth.net/2/)
 1. [JWT - JSON Web Tokens](https://jwt.io/)
-1. Competitors
-  1.1. [PingFederate Server](https://documentation.pingidentity.com/pingfederate/pf90/index.shtml#gettingStartedGuide/concept/gettingStarted.html)
-  1.1. [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-whatis)
-    1.1.1. [Pricing](https://azure.microsoft.com/en-us/pricing/details/active-directory/)
-  1.1. [Okta](https://www.okta.com/)
-  1.1. [Auth0](https://auth0.com/)
+
+* Competitors
+1. [PingFederate Server](https://documentation.pingidentity.com/pingfederate/pf90/index.shtml#gettingStartedGuide/concept/gettingStarted.html)
+1. [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-whatis)
+   [Pricing](https://azure.microsoft.com/en-us/pricing/details/active-directory/)
+1. [Okta](https://www.okta.com/)
+1. [Auth0](https://auth0.com/)
 
 ### 2. IdentityServer for ASP.NET Core
 
