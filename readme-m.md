@@ -40,9 +40,9 @@
 
 * [Admin UI](http://www.identityserver.com/documentation/admin-ui/)
 
-> ASP.NET Identity
-> MS built in ASP.NET Core is it is a framework for managing the ddbb that contains users authentication information
-> Includes: password, MFA, email confirmation, verify mobile phone
+> ASP.NET Identity  
+> MS built in ASP.NET Core is it is a framework for managing the ddbb that contains users authentication information  
+> Includes: password, MFA, email confirmation, verify mobile phone  
 
 * Resources
   - [IdentityServer4 Github](https://github.com/IdentityServer/IdentityServer4/)
