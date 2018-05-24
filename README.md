@@ -33,7 +33,11 @@
   - IdSvrHost. STS 
   - MvcApp. Web App needs login
   - WebApi. API's needs scurity
-* On server app.UseIdentityServer();
+  - app.UseIdentityServer();
+  - MakeSearch
+  - certmanager.msc
+  - power shell commands (other option)
+
 * [Admin UI](http://www.identityserver.com/documentation/admin-ui/)
 
 > ASP.NET Identity
@@ -54,6 +58,8 @@
   - return Challenge();
   - that call HttpContext.Authentication.ChallengeAsync()
   - returning a new ChallengeResult()
+
+
 
 ### 3. Set Up IdentityServer and MVC Client
 ### 4. Set Up and ASP.NET Core Web API
