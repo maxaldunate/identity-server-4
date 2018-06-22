@@ -59,10 +59,42 @@
   - that call HttpContext.Authentication.ChallengeAsync()
   - returning a new ChallengeResult()
 
-
+* [Social Buttons](https://lipis.github.io/bootstrap-social/)
 
 ### 3. Set Up IdentityServer and MVC Client
+
+* Cokies
+  - Cookie 1: on browser
+  - Cookie 2: Ids4 ("oidc")
+    ```cs
+    app.UseOpenIdConnectAuthentication(...
+       SignInScheme = "Cookies", ...
+    ```
+  - On public discover point 
+    `end_session_endpoint`
+
+* Sign Out 
+  - Remove the prompt 
+  - Risk of DoS attack
+    Need to send the id token for signout to avoid DoS
+    SaveTokens=true to send the token for SignOut
+  - token types
+    * id_token
+    * access_token
+    * refresh_token
+  - IFrame to communicate server to browsers for log out
+    LogoutUri configured in client
+
+* Chain of Trust
+  - Federation
+  - Google Id
+    Commented code as axample (min 26")
+  - May be used with LPAD
+
 ### 4. Set Up and ASP.NET Core Web API
+
+aqui pendiente 
+
 ### 5. Post Course Survey
 
 
